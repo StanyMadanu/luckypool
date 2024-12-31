@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(var(--secondary-color));
+  color: rgb(var(--text-default));
+}
+
+button {
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px 15px;
+  font-weight: 600;
+  background-color: rgb(var(--primary-color));
+  color: rgb(var(--fx-white));
+}
+
+.text-primary {
+  color: rgb(var(--primary-color)) !important;
+}
+
+.bg-primary {
+  background-color: rgb(var(--primary-color)) !important;
+}
+
+.text-muted {
+  color: rgb(var(--txt-muted)) !important;
+}
+
+.card {
+  background-color: rgb(var(--card-primary));
+
+  .inner-card {
+    background-color: rgb(var(--card-secondary));
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-21 {
+  font-size: 21px;
+}
+.fs-22 {
+  font-size: 22px;
+}
+.fs-23 {
+  font-size: 23px;
+}
